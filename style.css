@@ -120,13 +120,13 @@ dl, dt, dd, ol, ul, li {
 }
 
 ::selection {
-	background: #2f5a45;
-	color: #FFF;
+	background: var(--SecondColor);
+	color: var(--FirstColor);
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #2f5a45; /* Firefox */
+	background: #02d36e; /* Firefox */
 	color: #FFF;
 	text-shadow: none;
 }
@@ -148,7 +148,7 @@ dl, dt, dd, ol, ul, li {
 
 body {
 	line-height: 1.5;
-	color: #555;
+	color: var(--GreyColor);
 	font-family: 'Lato', sans-serif;
 }
 
@@ -6406,9 +6406,9 @@ body:not(.has-plugin-html5video) .video-wrap video {
 	border-bottom: none;
 }
 
-#page-title.page-title-dark h1 { color: rgba(255,255,255,0.9) !important; }
+#page-title.page-title-dark h1 { color: #1e8250 !important; }
 
-#page-title.page-title-dark span { color: rgba(255,255,255,0.7) !important; }
+#page-title.page-title-dark span { color: #1e8250 !important; }
 
 #page-title.page-title-dark .breadcrumb > .active { color: rgba(255,255,255,0.6); }
 
@@ -6576,7 +6576,9 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 #content {
 	position: relative;
-	background-color: rgba(46, 87, 66, 0.500);
+	background-color: var(--FirstColor);
+	background-image: url(/imgs/fondo-section.jpeg);
+	background-blend-mode:screen;
 }
 
 #content p { line-height: 1.8; }
@@ -6585,6 +6587,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 	position: relative;
 	padding: 80px 0;
 	overflow: hidden;
+
 }
 
 #content .container { position: relative; }
@@ -11127,7 +11130,7 @@ body:not(.device-touch) .social-icon i {
 .tab-nav li.ui-tabs-active a {
 	position: relative;
 	top: 1px;
-	background-color: rgb(150,171,160);
+	background-color: var(--FirstColor);
 	color: #232323;
 }
 
