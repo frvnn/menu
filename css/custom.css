@@ -4,10 +4,33 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
+@font-face {
+	font-family: 'Strawberry Blossom';
+	src: url(/fonts/Strawberry\ Blossom.ttf);
+  }
 
+@font-face {
+	font-family: 'Antipasto-Regular';
+	src: url(/fonts/Antipasto-Regular.ttf);
+}
 
 * {
 	--FirstColor: #1e8250;
 	--SecondColor: #7ae58c;
 	--GreyColor: #c1c5c8;
+	--DarkColor:#7c7e80;
+}
+
+.fuente1 {
+	font-family: 'Strawberry Blossom';
+}
+
+.fuente2 {
+	font-family: 'Antipasto-Regular';
+	color: var(--DarkColor)!important;
+}
+
+.fuente2chica {
+	font-family: 'Antipasto-Regular';
+	text-transform: uppercase;
 }

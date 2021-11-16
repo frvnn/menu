@@ -396,11 +396,11 @@ span.middot {
 
 .nolineheight { line-height: 0 !important; }
 
-.font-body { font-family: 'Lato', sans-serif; }
+.font-body { font-family: 'Strawberry Blossom', sans-serif; }
 
-.font-primary { font-family: 'Poppins', sans-serif; }
+.font-primary { font-family: 'Strawberry Blossom', sans-serif; }
 
-.font-secondary { font-family: 'PT Serif', serif; }
+.font-secondary { font-family: 'Strawberry Blossom', serif; }
 
 .font-weight-extralight {
 	font-weight: 100 !important;
@@ -3092,6 +3092,7 @@ html[xmlns] .slider-wrap {
 	position: relative;
 	background-color: #FFF;
 	width: 100%;
+
 }
 
 .header-wrap-clone {
@@ -6408,7 +6409,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 #page-title.page-title-dark h1 { color: #1e8250 !important; }
 
-#page-title.page-title-dark span { color: #1e8250 !important; }
+#page-title.page-title-dark span { color: #1e8250; }
 
 #page-title.page-title-dark .breadcrumb > .active { color: rgba(255,255,255,0.6); }
 
