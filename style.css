@@ -6584,7 +6584,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 	background-blend-mode:screen;
 }
 
-@media (max-width: 473px) {
+@media (max-width: 700px) {
 	#content {
 		background-size: 400%;
 	}
