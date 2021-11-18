@@ -180,7 +180,7 @@ ul.tab-nav:not(.tab-nav-lg) li a img { display: none; }
 .portfolio-item:hover .portfolio-image::after { opacity: 1; }
 
 .portfolio-desc h4 a {
-	color: #f8f8f8;
+	color: #1a1a1a;
 	font-size: 16px;
 }
 

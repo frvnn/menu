@@ -1451,14 +1451,14 @@ body #side-panel.dark {
 .dark .preloader,
 .dark .preloader2,
 .dark .form-process::before {
-	background-color: #383838;
+	background-color: var(--FirstColor);
 }
 
 
 .dark #footer,
 #footer.dark {
 	color: rgba(255,255,255,0.75);
-	background-color: #282828;
+	background-color: var(--FirstColor);
 	border-top-color: rgba(255,255,255,0.15);
 }
 
