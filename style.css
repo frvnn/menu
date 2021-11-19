@@ -6578,7 +6578,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 #content {
 	position: relative;
 	background-color: var(--FirstColor);
-	background-image: url(/imgs/background04.jpg);
+	background-image: url(./imgs/background04.jpg);
 	background-size: 80%;
 	background-repeat:unset;
 	background-blend-mode:screen;

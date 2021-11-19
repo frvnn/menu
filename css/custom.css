@@ -26,11 +26,13 @@
 }
 
 .fuente2 {
-	font-family: 'Antipasto-Regular';
+	/* font-family: 'Antipasto-Regular'; */
+    font-family: 'Poppins', sans-serif !important;
 	color: var(--DarkColor)!important;
 }
 
 .fuente2chica {
-	font-family: 'Antipasto-Regular';
+	/* font-family: 'Antipasto-Regular'; */
+    font-family: 'Poppins', sans-serif !important;
 	text-transform: uppercase;
 }
