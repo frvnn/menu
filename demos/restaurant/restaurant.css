@@ -151,7 +151,7 @@ ul.tab-nav:not(.tab-nav-lg) li a {
 	font-size: 12px;
 	font-family: Poppins;
 	font-weight: 400;
-	padding: 0 12px;
+	padding: 0 7px;
 }
 
 ul.tab-nav:not(.tab-nav-lg) li a img { display: none; }
