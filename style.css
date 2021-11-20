@@ -6879,7 +6879,7 @@ body:not(.device-touch) .portfolio {
 	position: relative;
 	z-index: 6;
 	padding: 20px 5px;
-	background-color: #c1c5c8a8;
+	background-color: red;
 	border-radius: 0px 0px 5px 5px;
 }
 
