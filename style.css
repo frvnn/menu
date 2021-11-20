@@ -154,10 +154,10 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #2f5a45;
+	color: #fff;
 }
 
-a:hover { color: #222; }
+a:hover { color: #111; }
 
 a img { border: none; }
 
