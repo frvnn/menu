@@ -194,7 +194,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-image > a {
 	color: #777777;
 }
 
-.product-meta > .card-body > span {
+.product-meta > .cards > span {
 	display: inline-block;
 	margin: 0 5px;
 }

@@ -1269,9 +1269,9 @@ var SEMICOLON = SEMICOLON || {};
 
 			$portfolioReveal.each( function(){
 				let element			= $(this),
-					elementItems	= element.find('.portfolio-item');
+					elementItems	= element.find('.cards');
 				elementItems.each( function(){
-					let element			= $(this).find('.portfolio-desc'),
+					let element			= $(this).find('.card-content'),
 						elementHeight	= element.outerHeight();
 					element.css({ 'margin-top': '-'+elementHeight+'px' });
 				});
@@ -1332,7 +1332,7 @@ var SEMICOLON = SEMICOLON || {};
 		parallax: function( element ){
 			let settings = {
 				element: element,
-				default: '.parallax,.page-title-parallax,.portfolio-parallax .portfolio-image',
+				default: '.parallax,.page-title-parallax,.portfolio-parallax .card-image',
 				file: 'plugins.parallax.js',
 				error: 'plugins.parallax.js: Plugin could not be loaded',
 				execfn: 'SEMICOLON_parallaxInit',
