@@ -868,19 +868,6 @@ caption {
   align-items: flex-end;
 }
 
-.card-link + .card-link {
-  margin-right: 1.25rem;
-  margin-left: 0;
-}
-
-.card-header:first-child {
-  border-radius: calc(0.25rem - 1px) 0 0 calc(0.25rem - 1px);
-}
-
-.card-footer:last-child {
-  border-radius: 0 calc(0.25rem - 1px) calc(0.25rem - 1px) 0;
-}
-
 @media (min-width: 576px) {
   .card-group > .card + .card {
     margin-right: 0;

@@ -188,24 +188,24 @@
 .portfolio {
   position: relative;
 }
-.portfolio-item {
+.cards {
   position: relative;
 }
-.portfolio-reveal .portfolio-item {
+.portfolio-reveal .cards {
   overflow: hidden;
 }
-.portfolio-item .portfolio-image {
+.cards .card-image {
   position: relative;
   overflow: hidden;
 }
-.portfolio-item .portfolio-image,
-.portfolio-item .portfolio-image > a,
-.portfolio-item .portfolio-image img {
+.cards .card-image,
+.cards .card-image > a,
+.cards .card-image img {
   display: block;
   width: 100%;
   height: auto;
 }
-.portfolio-rounded .portfolio-image {
+.portfolio-rounded .card-image {
   border-radius: 5px;
   overflow: hidden;
 }
@@ -216,7 +216,7 @@ body:not(.device-touch) .portfolio {
 }
 
 @media (min-width: 768px) {
-  .portfolio-reveal .portfolio-image img,
+  .portfolio-reveal .card-image img,
   .portfolio-reveal .bg-overlay {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -225,95 +225,95 @@ body:not(.device-touch) .portfolio {
 }
 /* Portfolio - Item Title
 -----------------------------------------------------------------*/
-.portfolio-desc {
+.card-content {
   position: relative;
   z-index: 6;
   padding: 20px 5px;
 }
-.portfolio-desc h3 {
+.card-content h3 {
   margin: 0;
   padding: 0;
   font-size: 1.25rem;
 }
-.col-md-9 .portfolio-desc h3 {
+.col-md-9 .card-content h3 {
   font-size: 1.125rem;
 }
-.portfolio-desc h3 a {
+.card-content h3 a {
   color: #222222;
 }
-.portfolio-desc h3 a:hover {
+.card-content h3 a:hover {
   color: #2f5a45;
 }
-.portfolio-desc span {
+.card-content span {
   display: block;
 }
-.col-md-9 .portfolio-desc span {
+.col-md-9 .card-content span {
   font-size: 0.875rem;
 }
-.portfolio-desc span,
-.portfolio-desc span a {
+.card-content span,
+.card-content span a {
   color: #888888;
 }
-.portfolio-desc span a:hover {
+.card-content span a:hover {
   color: #000;
 }
-.desc-lg .portfolio-desc {
+.desc-lg .card-content {
   padding: 20px 8px;
 }
-.desc-lg .portfolio-desc h3 {
+.desc-lg .card-content h3 {
   font-size: 1.5rem;
 }
-.desc-lg .portfolio-desc span {
+.desc-lg .card-content span {
   font-size: 110%;
 }
-.desc-sm .portfolio-desc {
+.desc-sm .card-content {
   padding: 15px 5px;
 }
-.desc-sm .portfolio-desc h3 {
+.desc-sm .card-content h3 {
   font-size: 1rem;
 }
-.desc-sm .portfolio-desc span {
+.desc-sm .card-content span {
   font-size: 90%;
 }
-.portfolio.no-gutters .portfolio-desc {
+.portfolio.no-gutters .card-content {
   padding-left: 15px;
   padding-right: 15px;
 }
-.desc-sm.no-gutters .portfolio-desc {
+.desc-sm.no-gutters .card-content {
   padding-left: 10px;
   padding-right: 10px;
 }
-.portfolio-reveal .portfolio-desc {
+.portfolio-reveal .card-content {
   background-color: #FFF;
   top: -100%;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
 }
 @media (min-width: 768px) {
-  .portfolio-reveal .portfolio-desc {
+  .portfolio-reveal .card-content {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
 }
 @media (max-width: 767.98px) {
-  .portfolio-reveal .portfolio-desc {
+  .portfolio-reveal .card-content {
     display: none !important;
   }
 }
 
-.portfolio-reveal .portfolio-item:hover .portfolio-desc {
+.portfolio-reveal .cards:hover .card-content {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
-.portfolio-reveal .portfolio-item:hover .portfolio-image img,
-.portfolio-reveal .portfolio-item:hover .bg-overlay {
+.portfolio-reveal .cards:hover .card-image img,
+.portfolio-reveal .cards:hover .bg-overlay {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 @media (min-width: 768px) {
-  .portfolio-reveal .portfolio-item:hover .portfolio-image img,
-  .portfolio-reveal .portfolio-item:hover .bg-overlay {
+  .portfolio-reveal .cards:hover .card-image img,
+  .portfolio-reveal .cards:hover .bg-overlay {
     -webkit-transform: translateY(-15%);
     transform: translateY(-15%);
   }
@@ -321,12 +321,12 @@ body:not(.device-touch) .portfolio {
 
 /* Portfolio - Parallax
 -----------------------------------------------------------------*/
-.portfolio-parallax .portfolio-image {
+.portfolio-parallax .card-image {
   height: 60vh;
   background-attachment: fixed;
 }
 @media (min-width: 992px) {
-  .portfolio-parallax .portfolio-image {
+  .portfolio-parallax .card-image {
     height: 500px;
   }
 }

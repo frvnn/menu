@@ -156,7 +156,7 @@ ul.tab-nav:not(.tab-nav-lg) li a {
 
 ul.tab-nav:not(.tab-nav-lg) li a img { display: none; }
 
-.portfolio-item .portfolio-image::after {
+.cards .card-image::after {
 	opacity: 0;
 	text-align: center;
 	vertical-align: -50%;
@@ -177,9 +177,9 @@ ul.tab-nav:not(.tab-nav-lg) li a img { display: none; }
 	transition: opacity .3s ease;
 }
 
-.portfolio-item:hover .portfolio-image::after { opacity: 1; }
+.cards:hover .card-image::after { opacity: 1; }
 
-.portfolio-desc h4 a {
+.card-content h4 a {
 	color: #1a1a1a;
 	font-size: 16px;
 }
