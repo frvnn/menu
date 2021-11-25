@@ -6916,14 +6916,33 @@ body:not(.device-touch) .grid-container {
 	height: 30px;
 	margin-right: 10px;
     margin-left: 10px;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
   }
   .user-info {
     color: var(--FirstColor);
     justify-self: flex-end;
   }
+
+  @media( max-width: 992px ) {
+	.user img {
+		width: 40px;
+		height: 40px;
+	  }
+}
+
   .user-info h5 {
 	margin: 0;
+	font-size: 1.6rem;
+	color: var(--FirstColor);
+	text-shadow: 2px 1px 3px rgba(0,0,0,0.1);
   }
+
+  @media( min-width: 992px ) {
+	.user-info h5 {
+		margin: 0;
+		font-size: 1.3rem;
+	  }
+}
   .user-info small {
 	color: #545d7a;
   }
@@ -11028,7 +11047,7 @@ body:not(.device-touch) .social-icon i {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	margin: 0;
-	border-bottom: 1px solid #DDD;
+	border-bottom: 1px solid #fff;
 	list-style: none;
 }
 
@@ -11037,7 +11056,6 @@ body:not(.device-touch) .social-icon i {
 	flex: 0 0 auto;
 	width: auto;
 	max-width: 100%;
-	border: 1px solid #DDD;
 	border-bottom: 0;
 	border-left: 0;
 	height: 41px;
@@ -11052,7 +11070,8 @@ body:not(.device-touch) .social-icon i {
 }
 
 .tab-nav li:first-child {
-	border-left: 1px solid #DDD;
+	border-radius: 15px 0px 0px 0px;
+
 }
 
 /* FONDO CATEGORIAS  ---------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -11060,11 +11079,13 @@ body:not(.device-touch) .social-icon i {
 .tab-nav li a {
 	display: block;
 	padding: 0 15px;
-	color: #ece6e6;
+	color: #fff;
 	height: 40px;
 	line-height: 40px;
 	background-color: var(--FirstColor);
 	font-weight: bold;
+	border-top:    1px solid #232323;
+	border-right:  1px solid #232323; 
 }
 
 @media (max-width: 767.98px) {
@@ -11076,8 +11097,14 @@ body:not(.device-touch) .social-icon i {
 .tab-nav li.ui-tabs-active a {
 	position: relative;
 	top: 1px;
-	background-color: var(--SecondColor);
-	color: #fff;
+	background-color: rgba(248, 248, 255, 0.900);
+	color: #222;
+	border-top: 1px solid var(--FirstColor);
+	border-right: 1px solid var(--FirstColor);
+	border-left: 1px solid var(--FirstColor);
+
+
+
 }
 
 
@@ -11095,6 +11122,13 @@ body:not(.device-touch) .social-icon i {
 	border-bottom: 0;
 }
 
+.cat-yogurts {
+	border-radius: 15px 0px 0px 0px;
+}
+
+.cat-reco {
+	border-radius: 0px 15px 0px 0px;
+}
 
 /* Tabs - Top Border
 -----------------------------------------------------------------*/

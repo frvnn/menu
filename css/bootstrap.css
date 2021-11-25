@@ -8143,7 +8143,7 @@ button.bg-dark:focus {
 
 .pt-0,
 .py-0 {
-  padding-top: 0 !important;
+  padding-top: 1px !important;
 }
 
 .pr-0,
@@ -8153,7 +8153,7 @@ button.bg-dark:focus {
 
 .pb-0,
 .py-0 {
-  padding-bottom: 0 !important;
+  padding-bottom: 1px !important;
 }
 
 .pl-0,
