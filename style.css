@@ -6880,6 +6880,15 @@ body:not(.device-touch) .grid-container {
   .tag-teal {
 	background-color: var(--FirstColor);
   }
+  .tag-teal-2 {
+	background-color:#27A566;
+  }
+  .tag-teal-3 {
+	background-color:#2FC67A;
+  }
+  .tag-teal-4 {
+	  background-color:#49D48F;
+  }
   .tag-purple {
 	background-color: #5e76bf;
   }
@@ -11021,7 +11030,6 @@ body:not(.device-touch) .social-icon i {
 	margin: 0;
 	border-bottom: 1px solid #DDD;
 	list-style: none;
-	padding: 0 15px;
 }
 
 .tab-nav li {

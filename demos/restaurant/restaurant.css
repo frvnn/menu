@@ -142,7 +142,7 @@
 
 
 
-.tabs-justify { top: -61px; }
+.tabs-justify { top: -41px; }
 
 ul.tab-nav:not(.tab-nav-lg) li ,
 ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a { top: auto; }
@@ -260,7 +260,7 @@ textarea.border-form-control {
 	.tabs-justify { top: -72px; }
 
 	ul.tab-nav:not(.tab-nav-lg) li a {
-		padding: 16px 30px;
+		padding: 16px 26px;
 		height: 71px;
 		font-size: 16px;
 		font-weight: 500;
